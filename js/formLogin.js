@@ -11,6 +11,9 @@ function formLogin() {
         const user = formFields.nome.value;
         const pass = formFields.senha.value;
 
+        console.log(user);
+        console.log(pass);
+
         const options = {
             method: 'POST',
             headers: {
